@@ -1,4 +1,4 @@
-# 心理学实验网站生成器
+# 无路之路网站生成器
 # 此脚本会扫描所有 .md 文件，生成对应的 HTML 页面，并更新主页
 
 $ErrorActionPreference = "Stop"
@@ -244,7 +244,7 @@ $indexHtml = @"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>心理学实验 - 文章列表</title>
+    <title>无路之路 - 文章列表</title>
     <style>
         * {
             margin: 0;
@@ -348,8 +348,8 @@ $indexHtml = @"
 <body>
     <div class="container">
         <header>
-            <h1>&#x1F4DA; 心理学实验</h1>
-            <p>探索人性与心理的奥秘</p>
+            <h1>&#x1F4DA; 无路之路</h1>
+            <p>修心路上的迷茫与指引</p>
         </header>
         
         <main>
@@ -359,7 +359,7 @@ $articleCards
         </main>
         
         <footer>
-            <p>&amp;copy; 2026 心理学实验 | 持续更新中...</p>
+            <p>&amp;copy; 2026 无路之路 | 持续更新中...</p>
         </footer>
     </div>
 </body>
